@@ -79,3 +79,12 @@ Keep the "broken window theory" at bay by ensuring all links work with
 
 Run link checker before committing: 
 `rake test` 
+<h3>What is the best way to delete a Spinnaker deployment?</h3>
+
+<p>You can run the <br>
+command `hal deploy clean` to delete an existing Spinnaker deployment. <br>
+Note, this command destroys all Spinnaker artifacts in your target deployment environment. So, use it with caution and backup your configuration if you want to restore them. <br>
+Once Spinnaker is deleted, you can delete Halyard by running `sudo ~/.hal/uninstall.sh` </p>
+
+
+
