@@ -1,5 +1,5 @@
 
-## Jekyll Installation
+<h1> Jekyll Installation </h1>
 Swap out `rbenv` below for `rvm` if you prefer. RVM was giving me installation issues, so I found `rbenv` - Travis
 
 1. Create and run from a fresh VM instance:
